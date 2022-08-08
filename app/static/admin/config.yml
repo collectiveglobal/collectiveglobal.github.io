@@ -53,9 +53,9 @@ collections:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: false }
       - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
       - { label: 'SEO Meta Image', name: seoMetaImage, widget: image, required: false }
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'app/content/blog'
+  - name: 'projects'
+    label: 'Projects'
+    folder: 'app/content/projects'
     create: true
     slug: '{{slug}}'
     format: 'json'
@@ -63,6 +63,7 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: 'Published At', name: publishedAt, widget: date, format: 'Do MMM YYYY' }
+      - { label: Client, name: client, widget: string }
       - { label: Content, name: content, widget: markdown }
       - { label: 'Featured Image', name: featuredImage, widget: image, required: false }
       - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
