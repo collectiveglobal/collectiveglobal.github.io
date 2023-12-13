@@ -1,0 +1,39 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .navbar-brand svg {
+    width: 300px;
+    fill: #0274d6;
+    margin-right: 0.9375rem;
+    max-width: 100%;
+  }
+
+  .navbar-brand .navbar-text {
+    position: relative;
+    height: 100%;
+    color: #0274d6;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+  }
+
+  .navbar-brand .navbar-text:before {
+    border-left: 1px solid #0274d6;
+    content: '';
+    left: 0;
+    padding-left: 0.9375rem;
+  }
